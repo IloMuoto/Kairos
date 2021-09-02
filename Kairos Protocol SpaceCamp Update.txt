@@ -1,0 +1,17 @@
+﻿SpaceCamp 2021
+
+Update Check-In for Kairos Protocol
+
+---Finished:
+-User_Story and Storyboard.
+-UI/UX lay-out for proof-of-concept => Landing Page, kDAO Creation form and Dashboard.
+-Workflow for filing a DAO as an LLC => Delaware Incorporation Form for Certificate of Formation.
+-Smart Contract to store kDAO general information on ledger.
+
+---In_Progress:
+-Polish, post and launch UI/UX
+-Connect web2 to web3
+-Create Video-content for Final Submission
+
+---Additional Goals:
+-Live integration of Anchor?
