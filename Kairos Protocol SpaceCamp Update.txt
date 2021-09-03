@@ -2,6 +2,9 @@
 
 Update Check-In for Kairos Protocol
 
+We now have several teams working on different aspects of Kairos. We have a group for UI/UX and graphic design. A design study has been performed, with work on logo. UI/UX has shared a version of a wizard process to create a DAO, now working to improve this by adding multiple template options to the beginning of the process. Templates will be suggested to the user based on the user-described purpose/function of the DAO. The legal team has created a form for the kDAO founder to complete in order to file for incorporation as an LLC, which the UX team is incorporating into their design. Legal team will continue to research various aspects of DAO formation, governance, and operations including token issuance. Development team is currently working on the smart contract to form a kDAO on-chain. Next steps for dev team are building the front-end and the function to relay the LLC information to the automated agent for filing for incorporation in the state of Delaware. The DAO research team is compiling a host of resources on the state of DAOs across the metaverse, and preparing to write a litepaper. DAO team is also fleshing out user stories for various use cases and exploring various utility modules to be created or integrated for use by kDAOs. These modules include other Terra projects for financial applications, in addition to other functionalities for governing, coordinating, and otherwise facilitating kDAO activity. All teams are working in collaboration, with lots of progress on the design and development side in the last couple of days.
+
+
 ---Finished:
 -User_Story and Storyboard.
 -UI/UX lay-out for proof-of-concept => Landing Page, kDAO Creation form and Dashboard.
@@ -12,6 +15,7 @@ Update Check-In for Kairos Protocol
 -Polish, post and launch UI/UX
 -Connect web2 to web3
 -Create Video-content for Final Submission
+-Litepaper
 
 ---Additional Goals:
 -Live integration of Anchor?
