@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QueryMsg",
+  "anyOf": [
+    {
+      "type": "object",
+      "required": [
+        "get_count"
+      ],
+      "properties": {
+        "get_count": {
+          "type": "object"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_request"
+      ],
+      "properties": {
+        "get_request": {
+          "type": "object",
+          "required": [
+            "index"
+          ],
+          "properties": {
+            "index": {
+              "type": "integer",
+              "format": "uint",
+              "minimum": 0.0
+            }
+          }
+        }
+      }
+    }
+  ]
+}
