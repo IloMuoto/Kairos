@@ -1,3 +1,3 @@
 #!/bin/bash
 
-terracli tx wasm store artifacts/kairos.wasm --from test1 --chain-id=localterra --gas=auto --fees=100000uluna --broadcast-mode=block
+terracli tx wasm store artifacts/kairos.wasm --from tequila --chain-id=tequila-0004 --gas=auto --fees=115343uluna --broadcast-mode=block

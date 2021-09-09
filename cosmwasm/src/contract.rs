@@ -78,9 +78,9 @@ fn query_count<S: Storage, A: Api, Q: Querier>(deps: &Extern<S, A, Q>) -> StdRes
     Ok(CountResponse { count: state.count })
 }
 
-fn query_request<S: Storage, A: Api, Q: Querier>(deps: &Extern<S, A, Q>, index: usize) -> StdResult<RequestResponse> {
+fn query_request<S: Storage, A: Api, Q: Querier>(deps: &Extern<S, A, Q>, index: i32) -> StdResult<RequestResponse> {
     let state = config_read(&deps.storage).load()?;
     let requests = state.requests.clone();
 
-    return Ok(RequestResponse { id: index, body: requests[index].clone() })
+    return Ok(RequestResponse { id: index, body: requests[index as usize].clone() })
 }
